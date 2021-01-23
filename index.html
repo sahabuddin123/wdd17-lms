@@ -17,6 +17,9 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<!-- Fontawesome -->
 	<link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css" />
+	<!-- Owl carousel CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<!-- Custom CSS -->
@@ -45,8 +48,6 @@
 	<!-- Header Start -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			
-		
   		<a class="navbar-brand" href="#"><img src="assets/img/logo-dark.png" alt="!"></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
@@ -77,31 +78,46 @@
 	    </ul>
 	   </div>
 	  </div>
-</nav>
+	</nav>
 	<!-- Header End -->
 	<!-- Slider Start -->
 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 	  
 	  <div class="carousel-inner">
-	    <div class="carousel-item active">
+	    <div class="carousel-item active position-rel">
 	      <img src="assets/img/slider.png" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	        <h5>First slide label</h5>
-	        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	      <div class="carousel-caption d-none d-md-block position-abs">
+	        <h1 class="text-left text-dark fw-b">Take the first step to <br>
+<span class="f-color"> knowledge</span> with us</h1>
+	        <p class="text-left text-dark">Claritas est etiam processus dynamicus, qui sequitur mution constudium lectorum est notare quam littera gothica.</p>
+	        <div class="text-left">
+	        	<a href="#" class="btn btn-f">VIEW COURSES</a>
+	        	<a href="#" class="btn btn-f-o">READ MORE</a>
+	        </div>
 	      </div>
 	    </div>
-	    <div class="carousel-item">
+	    <div class="carousel-item position-rel">
 	      <img src="assets/img/slider.png" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	        <h5>Second slide label</h5>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      <div class="carousel-caption d-none d-md-block position-abs">
+	        <h1 class="text-left text-dark fw-b">Take the first step to <br>
+<span class="f-color"> knowledge</span> with us</h1>
+	        <p class="text-left text-dark">Claritas est etiam processus dynamicus, qui sequitur mution constudium lectorum est notare quam littera gothica.</p>
+	        <div class="text-left">
+	        	<a href="#" class="btn btn-f">VIEW COURSES</a>
+	        	<a href="#" class="btn btn-f-o">READ MORE</a>
+	        </div>
 	      </div>
 	    </div>
-	    <div class="carousel-item">
+	    <div class="carousel-item position-rel">
 	      <img src="assets/img/slider.png" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	        <h5>Third slide label</h5>
-	        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	      <div class="carousel-caption d-none d-md-block position-abs">
+	        <h1 class="text-left text-dark fw-b">Take the first step to <br>
+<span class="f-color"> knowledge</span> with us</h1>
+	        <p class="text-left text-dark">Claritas est etiam processus dynamicus, qui sequitur mution constudium lectorum est notare quam littera gothica.</p>
+	        <div class="text-left">
+	        	<a href="#" class="btn btn-f">VIEW COURSES</a>
+	        	<a href="#" class="btn btn-f-o">READ MORE</a>
+	        </div>
 	      </div>
 	    </div>
 	  </div>
@@ -115,11 +131,107 @@
 	  </a>
 	</div>
 	<!-- Slider End -->
+	<!-- About US Start -->
+	<section class="about-us">
+		<div class="container-fluid py-5">
+			<div class="row">
+				<div class="col-md-5 offset-md-1 pt-5">
+					<h1>
+						Message From The Principal
+					</h1>
+					<p class="text-justify pt-5">
+						Investigationes demonstraverun lectores legere me lius quod ii leg
+unt saepius Claritas est etiam processus dynamicus, qui sequiturm
+utationem consuetudium lectorum Mirum est notare quam litterag
+othica, quam nunc putamus parum claram, anteposuerit litterarum
+formas humanitatis per seacula quarta decima et quinta decimaEo
+dem modo typi qui nunc nobis videntur .
+					</p>
+					<p class="sign pt-3">
+						<img src="assets/img/signature.png" alt=""><br>
+						<span>Principal of Educare</span>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<div class="acady">
+						<img src="assets/img/princilpe.png" alt="" class="princ">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About End -->
+	<!-- Course Section Start -->
+	<section class="course">
+		<div class="container py-5">
+			<h1 class="text-center fw-b">
+				Our Popular Courses
+			</h1>
+			<p class="text-center">
+				 Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet <br>
+doming id quod mazim placerat facer possim assum.
+			</p>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="owl-carousel owl-theme">
+					    <div class="item">
+					    	<div class="card">
+					    		<img src="assets/img/course1.png" alt="" class="card-img-top">
+					    		<div class="card-body">
+					    			<h4 class="text-center">The Art of Photography</h4>
+					    			<p class="text-center">
+					    				by <span class="f-color"> Joseph Langdon</span>
+					    			</p>
+					    			<p class="text-center">
+					    				Vel illum dolore eu feugiat nulla facilisis 
+at vero eros et accumsan et iusto.
+					    			</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<div class="card">
+					    		<img src="assets/img/course2.png" alt="" class="card-img-top">
+					    		<div class="card-body">
+					    			<h4 class="text-center">The Art of Photography</h4>
+					    			<p class="text-center">
+					    				by <span class="f-color"> Joseph Langdon</span>
+					    			</p>
+					    			<p class="text-center">
+					    				Vel illum dolore eu feugiat nulla facilisis 
+at vero eros et accumsan et iusto.
+					    			</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<div class="card">
+					    		<img src="assets/img/course3.png" alt="" class="card-img-top">
+					    		<div class="card-body">
+					    			<h4 class="text-center">The Art of Photography</h4>
+					    			<p class="text-center">
+					    				by <span class="f-color"> Joseph Langdon</span>
+					    			</p>
+					    			<p class="text-center">
+					    				Vel illum dolore eu feugiat nulla facilisis 
+at vero eros et accumsan et iusto.
+					    			</p>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Course Section End -->
 
 	<!-- jQuery v3.5.1 -->
 	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
 	<!-- Bootstrap v4.5.3 -->
 	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- owl carousel Js -->
+	<script src="assets/js/owl.carousel.min.js"></script>
 	<!-- Main Js -->
 	<script src="assets/js/main.js"></script>
 </body>

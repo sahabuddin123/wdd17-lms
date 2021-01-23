@@ -70,6 +70,9 @@
 .t-bg{
 	background: #1e1d1d;
 }
+.fw-b{
+	font-weight: bold;
+}
 /****************************************************
 	Common CSS End
 *****************************************************/
@@ -107,6 +110,35 @@
 .nav-link{
 	font-weight: 700;
 }
+.navbar{
+	position: sticky !important;
+	top: 0;
+	z-index: 3333;
+}
+.btn-f{
+	background: #56ab2f !important;
+	color: white;
+}
+.btn-f:hover{
+	border:1px solid #56ab2f;
+	background: #fff !important;
+}
+.btn-f-o{
+	border:1px solid #56ab2f;
+	background-color: white;
+}
+.btn-f-o:hover{
+	background: #56ab2f !important;
+	color: white;
+}
+.position-rel{
+	position: relative;
+}
+.position-abs{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
 /****************************************************
 	Header CSS End
 *****************************************************/
@@ -121,15 +153,29 @@
 /****************************************************
 	About US CSS Start
 *****************************************************/
-
-
+.acady{
+	background: url(../img/acadimy.png);
+	height: 300px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.princ{
+	max-height: 290px;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+.fs-30{
+	font-size: 35px !important;
+}
 /****************************************************
 	About US CSS End
 *****************************************************/
 /****************************************************
 	Course CSS Start
 *****************************************************/
-
+.card-img-top {
+	border-radius: 0px !important;
+}
 
 /****************************************************
 	Course CSS End

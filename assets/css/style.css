@@ -73,6 +73,12 @@
 .fw-b{
 	font-weight: bold;
 }
+.number-family{
+	font-family: 'Open Sans', sans-serif !important;
+}
+.fw-bold{
+	font-weight: bold;
+}
 /****************************************************
 	Common CSS End
 *****************************************************/
@@ -176,15 +182,85 @@
 .card-img-top {
 	border-radius: 0px !important;
 }
-
+.course-list{
+	padding: 0;
+	margin: 0;
+	border:1px solid #56ab2f !important;
+}
+.course-list li:first-child{
+	border-right:1px solid #56ab2f !important;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.course-list li:nth-child(2){
+	padding: 10px;
+	background: #56ab2f !important;
+	padding-left: 36px;
+	padding-right: 36px;
+}
+.course-list li:nth-child(2) a{
+	color: white;
+}
+.course-list li:last-child{
+	border-left:1px solid #56ab2f !important;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.custom-card{
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 40%;
+	font-size: 30px;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	left: -5%;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important; 
+    color: #56ab2f !important; 
+    text-decoration: none !important; 
+}
+.owl-carousel .owl-nav button.owl-next:focus{
+	border: none !important;
+	outline: none !important; 
+}
+.owl-carousel .owl-nav button.owl-prev:focus{
+	border: none !important;
+	outline: none !important; 
+}
 /****************************************************
 	Course CSS End
 *****************************************************/
 /****************************************************
 	Fatcs CSS Start
 *****************************************************/
-
-
+.facts{
+	background: url(../img/facts.png);
+	background-attachment: fixed;
+	width: 100%;
+}
+.contact-btn{
+	background: transparent;
+	border:1px solid #fff;
+	color: #fff;
+}
+.contact-btn:hover{
+	background: #fff;
+	border:1px solid #56ab2f;
+	color: #56ab2f;
+}
 /****************************************************
 	Fatcs CSS End
 *****************************************************/

@@ -173,6 +173,9 @@
 .fs-30{
 	font-size: 35px !important;
 }
+.fw900{
+	font-weight: 900;
+}
 /****************************************************
 	About US CSS End
 *****************************************************/
@@ -275,8 +278,20 @@
 /****************************************************
 	Test CSS Start
 *****************************************************/
+.testmonial{
+	background: url(../img/testimonial.png);
+}
 
-
+.recent-img{
+	max-width: 100px;
+	margin: 0px auto;
+	margin-bottom: -45px;
+}
+.recent-card{
+	border:20px solid transparent;
+	border-image: url(../img/border.png) 55% round;
+	border-top:none;
+}
 /****************************************************
 	Test CSS End
 *****************************************************/

@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px){
+	.left-top li a span{
+		display: none;
+	}
+	.c-line{
+		display: block !important;
+	}
+	.c-line div p{
+		text-align: center !important;
+	}
+	.footer-icon{
+		justify-content: center !important;
+	}
+	.course-list li:nth-child(2){
+		padding-left: 21px !important;
+    	padding-right: 17px !important;
+	}
+	.acady{
+		margin-left: 0px !important;
+	}
+	.princ{
+		    margin-left: -17px !important;
+	}
+	.email{
+		width: 200px !important;
+	} 
+}
